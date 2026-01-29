@@ -1,0 +1,4 @@
+El string, es un tipo de dato primitivo esencial. 
+
+Un string es simplemente una cadena de caracteres que nos permite escribir texto dentro de nuestros programas. Para definir un string en JavaScript, basta con asignarlo a una variable utilizando comillas. Estas comillas pueden ser simples (' '), dobles (" ") o invertidas (`), cada una con sus ventajas específicas.
+
