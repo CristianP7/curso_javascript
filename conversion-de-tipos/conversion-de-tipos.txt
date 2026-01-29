@@ -1,0 +1,38 @@
+Conversión de Tipos en JavaScript
+
+La conversión de tipos en JavaScript es fundamental y una característica distintiva del lenguaje.
+
+JavaScript utiliza tanto compiladores como intérpretes para traducir el código escrito por los programadores en un formato que el computador pueda entender.
+
+Los lenguajes de programación se dividen en compilados (e.g., C, C++, Rust, Go, Swift) y los interpretados (e.g., JavaScript, Python, Ruby, PHP).
+Lenguajes Compilados vs Interpretados
+
+Lenguajes compilados: El código es traducido antes de la ejecución del programa. Ejemplos: C, C++, Rust, Go, Swift.
+
+Lenguajes interpretados: El código es traducido a medida que se va ejecutando el programa. Ejemplos: JavaScript, Python, Ruby, PHP.
+
+Analogía de Compilador e Intérprete
+
+Compilador: Es como tener una receta de cocina ya traducida.
+
+Intérprete: Es como tener un amigo que traduce la receta en tiempo real mientras cocinamos.
+
+Chequeo de Tipos
+
+En los lenguajes compilados, ocurre un chequeo estático de tipos antes de la ejecución.
+
+En los lenguajes interpretados, ocurre un chequeo dinámico de tipos durante la ejecución del programa.
+
+Tipado Débil en JavaScript
+
+JavaScript permite cambiar el tipo de una variable en tiempo de ejecución.
+
+Conversión Implícita y Explícita
+
+Conversión implícita: JavaScript convierte los tipos automáticamente durante la ejecución.
+
+Conversión explícita: El programador convierte los tipos manualmente según sea necesario.
+
+Errores Comunes en JavaScript
+
+JavaScript ejecuta el código línea por línea y los errores pueden surgir en tiempo de ejecución.
