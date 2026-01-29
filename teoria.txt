@@ -1,1 +1,19 @@
 Teoría del curso
+
+En javascript hay 10 tipos de datos
+
+Primitivos:
+
+string
+number
+boolean
+null 
+undefined
+symbol
+bigint
+
+Complejos:
+
+object
+array
+function
