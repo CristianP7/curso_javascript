@@ -1,0 +1,39 @@
+Teoría del curso
+
+En javascript hay 10 tipos de datos
+
+Primitivos:string, number, boolean, null, undefined, symbol, bigint
+
+Complejos:object, array, function
+
+----------------------------------------------------------
+
+¿Cúal es la diferencia entre un array y un objeto?
+
+Array: Se utiliza cuando necesitas una lista de elementos donde el orden importa y puedes acceder a ellos por su posición (índice). También es util cuando necesitas iterar sobre una colección de datos.
+
+Objeto: Se utiliza para representar datos estructurados en un formato clave-valor. Es ideal para describir entidades o cosas con varias propiedades, donde cada propiedad tiene un nombre (clave) y un valor asociado.
+
+Diferencias clave: En un array el acceso a los datos se realiza por su posición (índice numérico), mientras que en un objeto, el acceso se realiza por una clave (nombre de propiedad). Usa array cuando el orden es importante y necesitas listas. Usa objeto cuando trabajes con datos estructurados y propiedades con significado especifico.
+
+----------------------------------------------------------
+
+En JavaScript, 2n representa un valor de tipo BigInt, que es un tipo de dato especial para trabajar con números enteros muy grandes.
+
+Desglose:
+
+2: Es un número entero.
+n: Indica que el número es de tipo BigInt.
+¿Qué es BigInt?
+
+BigInt es un tipo de dato que permite representar enteros más grandes que el límite de precisión que tiene el tipo Number en JavaScript (que es hasta 2⁵³ - 1, aproximadamente 9.007 × 10¹⁵). Esto permite trabajar con números de cualquier tamaño sin perder precisión.
+
+let bigNumber = 2n; // Esto es un BigInt
+
+console.log(bigNumber); // 2n
+
+En este caso, 2n es un BigInt, mientras que si simplemente escribieras 2, sería un Number.
+
+¿Por qué usar n?
+
+El sufijo n se utiliza para crear un BigInt en lugar de un Number. Esto es útil cuando necesitas trabajar con números extremadamente grandes, como en cálculos de criptografía, astronomía o algunas aplicaciones financieras.
