@@ -1,0 +1,9 @@
+for: Úsalo cuando sabes cuántas veces quieres que el bucle se ejecute.
+
+for...of: Úsalo cuando quieras iterar sobre los valores de un iterable (como un array).
+
+for...in: Úsalo cuando necesites iterar sobre las claves de un objeto o índices de un array.
+
+while: Úsalo cuando no sabes cuántas veces se ejecutará el bucle, pero tienes una condición clara.
+
+do...while: Úsalo cuando quieras que el bucle se ejecute al menos una vez, independientemente de la condición.
