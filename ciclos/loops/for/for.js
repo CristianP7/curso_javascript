@@ -10,7 +10,7 @@
 
 // Condición: Evalúa la condición que debe cumplirse para que el loop continúe. Normalmente, se compara la variable de control con una longitud. Un ejemplo es i < lista.length.
 
-// Incremento: Modifica la variable de control en cada iteración, generalmente incrementándola en uno (i++).
+// Incremento: Modifica la variable de control en cada iteración, generalmente incrementándola en uno (i++)
 
 //      for (variable; condicion; incremento) {
 //          código a ejecutar
