@@ -1,0 +1,8 @@
+Una función es un conjunto de instrucciones tareas que realiza una tarea o asigna un valor
+
+
+fuction suma (a, b) {
+    return a + b
+}
+
+suma(3, 5)
