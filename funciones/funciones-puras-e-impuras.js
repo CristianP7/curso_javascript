@@ -28,19 +28,19 @@ function sumWithSideEffect (a){
     return total
 }
 
-// Función pura
+// Función Pura
 
 function square (x) {
     return x * x
 }
 
-// Función pura
+// Función Pura
 
 function addTen (y) {
     return y + 10
 }
 
-// Función pura
+// Función Pura
 
 const number = 5
 const finalResult = addTen(square(number))
