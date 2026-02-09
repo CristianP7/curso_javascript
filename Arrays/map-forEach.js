@@ -21,3 +21,16 @@ const celsius = farenheit.map( // utilizamos map YA QUE NECESITAMOS recibir un a
 
 console.log('Temperaturas en Farenheit: ' + farenheit)
 console.log('Temperaturas en Celsius: ' + celsius)
+
+// Exercise: Sum of elementes in an array
+
+const newNumbers = [1,2,3,4,5]
+
+let sum = 0
+
+newNumbers.forEach(number => {
+    sum = sum + number // ó  sum += number 
+})
+console.log('Array of Numbers ' , newNumbers)
+console.log('Sum of numbers, ' , sum )
+
