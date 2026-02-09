@@ -15,7 +15,7 @@ console.log(colors)
 console.log(iteratedColors)
 
 const farenheit = [82, 81, 83]
-const celsius = farenheit.map(
+const celsius = farenheit.map( // utilizamos map YA QUE NECESITAMOS recibir un array con las temperaturas convertidas
   temp => Number(((5 / 9) * (temp - 32)).toFixed(0))
 )
 
