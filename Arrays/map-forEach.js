@@ -6,4 +6,10 @@ const squareNumbers = numbers.map(num => num * num)
 console.log(numbers)
 console.log(squareNumbers)
 
-// for each itera sobre cada elemento,sin crear un nuevo array
+// for each itera sobre cada elemento, sin crear un nuevo array
+
+const colors = ['red', 'pink', 'blue']
+const iteratedColors = colors.forEach(color => console.log(color))
+
+console.log(colors)
+console.log(iteratedColors)
