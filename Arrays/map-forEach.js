@@ -19,4 +19,5 @@ const celsius = farenheit.map( // utilizamos map YA QUE NECESITAMOS recibir un a
   temp => Number(((5 / 9) * (temp - 32)).toFixed(0))
 )
 
-console.log(celsius)
+console.log('Temperaturas en Farenheit: ' + farenheit)
+console.log('Temperaturas en Celsius: ' + celsius)
