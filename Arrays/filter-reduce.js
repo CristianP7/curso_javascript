@@ -1,0 +1,1 @@
+// filter () Crea un nuevo array con elementos que cumplen una condición dada por una función
