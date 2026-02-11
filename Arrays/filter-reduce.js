@@ -27,4 +27,4 @@ const wordsFrecuency = words.reduce((accumulator, currentValue) => {
     return accumulator
 }, {})
 
-console.log(wordsFrecuency , '<====')
+console.log(wordsFrecuency , '<=====')
