@@ -16,3 +16,11 @@ const combArray = [...array1, ...array2]
 console.log(array1)
 console.log(array2)
 console.log(combArray,)
+
+// Creating Arrays With additional Elements
+
+const baseArray = [1,2,3]
+const arrayWithAdditionalElements = [...baseArray, 4,5,6,7,8,9]
+
+console.log(baseArray)
+console.log(arrayWithAdditionalElements)
