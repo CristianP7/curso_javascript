@@ -24,3 +24,14 @@ const arrayWithAdditionalElements = [...baseArray, 4,5,6,7,8,9]
 
 console.log(baseArray)
 console.log(arrayWithAdditionalElements)
+
+// Pass elements to functions
+
+function sum (a,b,c){
+    return a + b + c
+}
+
+const numbers = [1,1,1]
+const result = sum (...numbers)
+
+console.log(result)
