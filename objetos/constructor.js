@@ -27,5 +27,5 @@ Persona.prototype.saludar = function(){
     console.log(`Hola, me llamo ${this.nombre} ${this.apellido}`)
 }
 
-persona1.saludar()
-persona2.saludar()
+persona1.saludar();
+persona2.saludar();
