@@ -28,4 +28,4 @@ Persona.prototype.saludar = function(){
 }
 
 persona1.saludar();
-persona2.saludar()
+persona2.saludar();
