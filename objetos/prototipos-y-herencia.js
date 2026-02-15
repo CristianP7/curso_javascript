@@ -45,3 +45,16 @@ console.log (perro1)
 
 perro1.correr()
 perro1.emitirSonido() // llama este metodo ya que sobreescribimos el método ya que extendimos la clase
+
+
+// Se está agregando a la instancia, no a la clase Perro
+perro1.nuevoMetodo = function () {
+    console.log("Este es un metodo")
+}
+
+// La forma de hacerlo es inyectar al prototipo que se genera en la clase de perro con
+Perro.prototype.segundoMetodo = function(){
+    console.log("Es otro metodo nuevo")
+}
+
+console.log(Perro.prototype.segundoMetodo())
