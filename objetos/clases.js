@@ -28,7 +28,7 @@
 
 // this hace referencia al objeto que se va a crear, es decir, a la instancia de la clase
 
-// la función constructora inicia con Mayuscula
+// la clase constructora inicia con Mayuscula
 
 // seguido a eso, hay que crear una instancia
 
