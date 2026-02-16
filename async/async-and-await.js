@@ -26,11 +26,13 @@ async function fetchData() {
     try {
         let response = await fetch("https://rickandmortyapi.com/api/character")
         let data = await response.json();
-        console.log(data)
+        console.log(data.results)
     } catch (error) {
         console.log(error)
     }
 }
+
+fetchData()
 
 /*
 
