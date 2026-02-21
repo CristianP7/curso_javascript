@@ -1,6 +1,6 @@
 /*
 
-CLOSURE: Función que tiene acceso a bariables de un ambiente externo, incluso después de que la función externa haya terminado de ejecutarse.
+CLOSURE: Función que tiene acceso a variables de un ambiente externo, incluso después de que la función externa haya terminado de ejecutarse.
 
 Ámbito léxico: cada vez que se declara una funciom, crea su propio ámbito léxico. El ámbito léxico es el entorno en el que se declara una función, y determina a qué variables tiene acceso la función.
 
