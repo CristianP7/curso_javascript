@@ -32,3 +32,23 @@ const persona = {nombre: 'Ana', edad: 25, ciudad: 'Madrid'}
 for (const key in persona) {
     console.log(`${key}: ${persona[key]}`)
 }
+
+// While - ejecuta un bloque de código mientras una condición sea verdadera
+
+let contador = 0; 
+
+while (contador < 3) {
+    console.log(contador);
+    contador++; // es importante incrementar el contador para evitar un bucle infinito
+}
+
+// Do While - similar al while, pero garantiza que el bloque de código se ejecute al menos una vez, ya que la condición se evalúa después de la ejecución del bloque
+
+let numero =  0;
+
+do {
+    console.log(`Entra en ${numero}`);
+    numero++;
+} while (numero < 3); {
+    console.log(numero);
+}
