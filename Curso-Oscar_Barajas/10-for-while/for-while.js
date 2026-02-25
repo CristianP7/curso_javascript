@@ -4,6 +4,8 @@
 //     // código a ejecutar
 // }
 
+// For - se usa cuando sabemos cuántas veces queremos ejecutar un bloque de código, o cuando queremos iterar sobre un array o una colección de datos
+
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
@@ -33,7 +35,19 @@ for (const key in persona) {
     console.log(`${key}: ${persona[key]}`)
 }
 
+// Las principales diferencias entre for of y for in son:
+
+// - for of itera sobre los valores de un iterable, mientras que for in itera sobre las propiedades de un objeto o los índices de un array.
+
+// - for of no se puede usar para iterar sobre objetos, mientras que for in sí se puede usar para iterar sobre objetos y arrays.
+
+// - for of es más adecuado para iterar sobre arrays y otros iterables, mientras que for in es más adecuado para iterar sobre objetos y sus propiedades.
+
+// ==============================================================================  //
+
 // While - ejecuta un bloque de código mientras una condición sea verdadera
+
+// Este se usa cada vez que no sabemos cuántas veces se va a ejecutar el bloque de código, o cuando queremos que el bloque de código se ejecute mientras una condición sea verdadera
 
 let contador = 0; 
 
