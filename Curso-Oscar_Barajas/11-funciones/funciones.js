@@ -36,3 +36,6 @@ const crearNota = (contenido, titulo = 'Sin Titulo') => {
 const nota1 = crearNota('Mi contenido')
 const nota2 = crearNota('Harry Potter y la piedra filosofal', 'Nota de Cristian')
 console.log(nota1, nota2)
+
+
+// Si una función no tiene return, esta va a mandar undefined
