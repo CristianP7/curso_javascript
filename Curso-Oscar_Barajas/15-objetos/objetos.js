@@ -55,3 +55,15 @@ const notaActualizada = {
 }
 
 console.log(notaActualizada)
+
+// Iterar sobre objetos - Object.keys
+
+console.log(Object.keys(nota));
+
+// Object.values
+
+console.log(Object.values(nota)); 
+
+// Object.entries
+
+console.log(Object.entries(nota));
