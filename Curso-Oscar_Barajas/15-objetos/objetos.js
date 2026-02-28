@@ -9,7 +9,7 @@ const nota = {
     createdAt: Date.now(),
 }
 
-// Para acceder a las propiedades
+// Para acceder a las propiedades.
 
 console.log(nota.id);
 console.log(nota.title);
