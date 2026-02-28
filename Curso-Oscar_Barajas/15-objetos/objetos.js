@@ -54,7 +54,7 @@ const notaActualizada = {
     edad:18
 }
 
-console.log(notaActualizada)
+console.log(notaActualizada).
 
 // Iterar sobre objetos - Object.keys
 
