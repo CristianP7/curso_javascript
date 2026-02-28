@@ -19,7 +19,7 @@ console.log(nota[campo])
 
 console.log(nota.author?.name) // ? = Opcional Chaining
 
-// Destructuración
+// Destructuración.
 
 const nota2 = {
     id: 1,
