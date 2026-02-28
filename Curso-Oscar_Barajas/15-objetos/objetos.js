@@ -38,7 +38,7 @@ console.log(titulo, content)
 // Destructurar elementos es muy común a la hora de ver codigo, ya que nos permite acceder a las propiedades de un objeto de una manera más sencilla y legible. Además, también podemos usar la destructuración para asignar valores a variables de una manera más rápida y eficiente.
 
 
-// Spread operator
+// Spread operator.
 
 const nota3 = {id: 2, title: 'Hola'};
 const data = { esAdmin:true};
