@@ -18,3 +18,17 @@ const notasConFecha = notas.map((nota) => ({
 }))
 
 console.log(notasConFecha)
+
+// Filter 
+
+const notas2 = [
+    {id: 1, title: 'Nota 1', content: 'Contindo uno', esFavorita: true},
+    {id: 2, title: 'Nota 2', content: 'Contindo dos', esFavorita: true},
+    {id: 3, title: 'Nota 3', content: 'Contindo tres', esFavorita: false},
+];
+
+const nota1 = nota1.filter((nota) => nota.title.toLocaleLowerCase().includes('nota 1'))
+console.log(nota1)
+
+const favoritas = notas2.filter((nota) => nota.esFavorita);
+console.log(favoritas)
