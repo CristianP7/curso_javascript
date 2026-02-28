@@ -1,4 +1,4 @@
-// Los objetos los podemos entender como la caracterización de algo, es decir, un objeto es una entidad que tiene propiedades y métodos. Las propiedades son características o atributos del objeto, mientras que los métodos son acciones o comportamientos que el objeto puede realizar.
+// Los objetos los podemos entender como la caracterización de algo, es decir, un objeto es una entidad que tiene propiedades y métodos. Las propiedades son características o atributos del objeto, mientras que los métodos son acciones o comportamientos que el objeto puede realizar...
 
 // Los cuales los vamos a definir como clave y valor
 
