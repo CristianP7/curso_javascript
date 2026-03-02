@@ -32,3 +32,14 @@ console.log(nota1)
 
 const favoritas = notas2.filter((nota) => nota.esFavorita);
 console.log(favoritas)
+
+// Find ()
+
+const notas3 = [
+    {id: 1, title: 'Nota 1', content: 'Contindo uno', esFavorita: true},
+    {id: 2, title: 'Nota 2', content: 'Contindo dos', esFavorita: true},
+    {id: 3, title: 'Nota 3', content: 'Contindo tres', esFavorita: false},
+];
+
+const nota = notas3.find((nota) => nota.id === 2);
+console.log(nota);
