@@ -27,7 +27,7 @@ const notas2 = [
     {id: 3, title: 'Nota 3', content: 'Contindo tres', esFavorita: false},
 ];
 
-const nota1 = notas2.filter((nota) => nota.title.toLocaleLowerCase().includes('nota 1'))
+const nota1 = notas2.filter((nota) => nota.title.toLocaleLowerCase().includes('nota 3'))
 console.log(nota1)
 
 const favoritas = notas2.filter((nota) => nota.esFavorita);
