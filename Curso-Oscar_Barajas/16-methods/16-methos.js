@@ -43,3 +43,10 @@ const notas3 = [
 
 const nota = notas3.find((nota) => nota.id === 2);
 console.log(nota);
+
+// Reduce ()
+
+const numeros = [1,2,3,4,5]
+
+const suma = numeros.reduce((acc, n) => acc + n, 0);
+console.log(suma) // 15
