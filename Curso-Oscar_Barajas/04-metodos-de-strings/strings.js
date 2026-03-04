@@ -8,9 +8,11 @@ console.log(texto.length); //10
 // Slice(inicio, fin): Extrae una sección de una cadena y devuelve una nueva cadena.
 
 const texto1 = "JavaScript es genial";
+console.log(texto1.substring(0, 10));
 console.log(texto1.slice(0, 10)); //JavaScript
 console.log(texto1.slice(11)); //es genial
-console.log(texto1.slice(-6)); //genial
+console.log(texto1.slice(14,20)); //genial
+console.log(texto1.length); //20
 
 // Substring(inicio, fin): Similar a slice pero no acepta índices negativos.
 
