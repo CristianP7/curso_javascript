@@ -28,6 +28,8 @@ diferencia entre parseInt() y Number():
 
 
 */
+ const a = 10.9;
+ console.log(Math.round(a)); // 11 | Redondea al número entero más cercano. Si el decimal es .5 o mayor, redondea hacia arriba; si es menor, redondea hacia abajo.
 
 const float = parseFloat('3.14159'); // Convertir string a número de punto flotante explícitamente
 console.log(typeof float, float); // number 3.14159
