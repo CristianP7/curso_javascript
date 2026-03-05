@@ -46,6 +46,9 @@ const contenido = 'Aprende JavaScript desde cero';
 console.log(contenido.includes('Aprende')); //true
 console.log(contenido.includes('Python')); //false
 
+const content = 'Aprende JavaScript desde cero';
+console.log(content.toLocaleLowerCase().includes('javascript'));
+
 //startsWith(subcadena) y endsWith(subcadena): Verifican si una cadena comienza o termina con una subcadena específica.
 
 const saludo = 'archivo.md';
