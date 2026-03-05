@@ -39,6 +39,7 @@ console.log(texto5.toUpperCase()); //HOLA MUNDO
 console.log(texto5.toLowerCase()); //hola mundo
 
 // includes(subcadena): Verifica si una cadena contiene una subcadena específica y devuelve true o false.
+
 // mayusculas y minusculas importan, si quieres ignorar eso puedes usar toLowerCase() o toUpperCase() antes de comparar.
 
 const contenido = 'Aprende JavaScript desde cero';
