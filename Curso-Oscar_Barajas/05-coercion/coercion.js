@@ -38,4 +38,4 @@ const texto = String(123); // Convertir número a string explícitamente
 console.log(typeof texto, texto); // '123'  
 
 const bool = Boolean(1); // Convertir número a booleano explícitamente
-console.log(typeof bool, bool); // booleano se convierte a número, true es 1 y false es 0
+console.log(typeof bool, bool); // booleano se convierte a número, true es 1 y false es 0.
