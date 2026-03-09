@@ -19,12 +19,14 @@ console.log(int) // 42
 /*
 diferencia entre parseInt() y Number():
 
+
 | Entrada  | parseInt() | Number() |
 | -------- | ---------- | -------- |
 | `"10"`   | 10         | 10       |
 | `"10.9"` | 10         | 10.9     |
 | `"15px"` | 15         | NaN      |
 | `"px15"` | NaN        | NaN      |
+
 
 
 */
