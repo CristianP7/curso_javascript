@@ -1,0 +1,91 @@
+EXPLICACIÓN DE SELECTORES DEL DOM EN JAVASCRIPT
+
+¿Qué estás haciendo?
+Estás usando métodos de JavaScript para seleccionar elementos del DOM (la estructura HTML de la página).
+
+--------------------------------------------------
+
+document.querySelector()
+
+document.querySelector('#header')
+- Selecciona el PRIMER elemento que coincida.
+- #header = busca por id.
+- Retorna: <header id="header">
+
+document.querySelector('.producto')
+- Selecciona el PRIMER elemento con esa clase.
+- .producto = clase.
+- Retorna: el primer <article class="card producto">
+
+document.querySelector('h1')
+- Selecciona el PRIMER <h1>.
+- Retorna: "Productos útiles, entrega rápida."
+
+--------------------------------------------------
+
+document.querySelectorAll()
+
+document.querySelectorAll('.producto')
+- Selecciona TODOS los elementos con esa clase.
+- Retorna: NodeList(3)
+
+Ejemplo de uso:
+document.querySelectorAll('.producto').forEach(el => {
+  console.log(el);
+});
+
+IMPORTANTE:
+- NodeList sí tiene forEach
+
+--------------------------------------------------
+
+document.getElementById()
+
+document.getElementById('btn-comprar')
+- Selecciona por ID único.
+- Retorna: <button id="btn-comprar">
+
+IMPORTANTE:
+- Es más rápido que querySelector
+- Solo sirve para IDs
+
+--------------------------------------------------
+
+document.getElementsByClassName()
+
+document.getElementsByClassName('nav-link')
+- Selecciona elementos por clase.
+- Retorna: HTMLCollection(3)
+
+IMPORTANTE:
+- Es una colección "en vivo" (se actualiza sola)
+- No tiene forEach directamente
+
+--------------------------------------------------
+
+document.getElementsByTagName()
+
+document.getElementsByTagName('h1')
+- Selecciona por etiqueta.
+- Retorna: HTMLCollection(1)
+
+--------------------------------------------------
+
+DIFERENCIAS CLAVE
+
+querySelector        -> devuelve 1 elemento
+querySelectorAll     -> devuelve NodeList (tiene forEach)
+getElementById       -> devuelve 1 elemento (por id)
+getElementsByClassName -> HTMLCollection (dinámico)
+getElementsByTagName   -> HTMLCollection (dinámico)
+
+--------------------------------------------------
+
+RESUMEN SIMPLE
+
+- Usa querySelector → cuando quieres 1 elemento
+- Usa querySelectorAll → cuando quieres varios
+- Usa getElementById → cuando trabajas con IDs
+- getElements... → métodos antiguos pero útiles
+
+--------------------------------------------------
