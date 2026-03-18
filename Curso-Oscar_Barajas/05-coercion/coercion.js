@@ -19,12 +19,14 @@ console.log(int) // 42
 /*
 diferencia entre parseInt() y Number():
 
+
 | Entrada  | parseInt() | Number() |
 | -------- | ---------- | -------- |
 | `"10"`   | 10         | 10       |
 | `"10.9"` | 10         | 10.9     |
 | `"15px"` | 15         | NaN      |
 | `"px15"` | NaN        | NaN      |
+
 
 
 */
@@ -38,4 +40,4 @@ const texto = String(123); // Convertir número a string explícitamente
 console.log(typeof texto, texto); // '123'  
 
 const bool = Boolean(1); // Convertir número a booleano explícitamente
-console.log(typeof bool, bool); // booleano se convierte a número, true es 1 y false es 0
+console.log(typeof bool, bool); // booleano se convierte a número, true es 1 y false es 0.
