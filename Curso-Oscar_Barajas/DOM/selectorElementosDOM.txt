@@ -5,7 +5,7 @@ Estás usando métodos de JavaScript para seleccionar elementos del DOM (la estr
 
 --------------------------------------------------
 
-document.querySelector()
+document.querySelector() - sirve para clases, id o etiquetas (todo lo que se usa en css)
 
 document.querySelector('#header')
 - Selecciona el PRIMER elemento que coincida.
