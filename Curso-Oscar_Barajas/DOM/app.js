@@ -1,3 +1,5 @@
+
+
 const opiniones = [
   {
     id: "op-1",
@@ -33,6 +35,12 @@ function createOpinionElement(opinion) {
   const article = document.createElement("article");
   article.classList.add("opinion");
   article.dataset.id = opinion.id;
+
+// createElement("article") → crea el HTML
+// classList.add("opinion") → le agrega clase CSS
+// dataset.id = opinion.id → guarda el id como atributo:
+
+// Se vería así en HTML => <article class="opinion" data-id="op-1"></article>
 
   const header = document.createElement("header");
   const meta = document.createElement("div");
