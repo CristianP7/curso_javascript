@@ -81,6 +81,7 @@ getElementsByTagName   -> HTMLCollection (dinámico)
 
 --------------------------------------------------
 
+
 RESUMEN SIMPLE
 
 - Usa querySelector → cuando quieres 1 elemento
