@@ -1,5 +1,3 @@
-
-
 const opiniones = [
   {
     id: "op-1",
