@@ -1,5 +1,6 @@
 // Coerción Implicita
 
+
 console.log('5' + 2); // 52 | Concatenación, el número se convierte en cadena. El simbolo + es para concatenar si uno de los operandos es una cadena.    
 
 console.log('5' - 2); // 3 | Resta, el string se convierte en número. El simbolo - es para restar, por lo que el string se convierte en número.
