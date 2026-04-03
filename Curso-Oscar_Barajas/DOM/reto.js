@@ -1,6 +1,7 @@
 // ============================================
 //  Reto 22: Renderizado Dinámico de Opiniones
 // ============================================
+
 // Completa cada función según las instrucciones.
 // Ejecuta los tests con: npx vitest src/22-renderizado-dinamico-opiniones
 // ============================================
