@@ -6,4 +6,4 @@ for...in: Úsalo cuando necesites iterar sobre las claves de un objeto o índice
 
 while: Úsalo cuando no sabes cuántas veces se ejecutará el bucle, pero tienes una condición clara.
 
-do...while: Úsalo cuando quieras que el bucle se ejecute al menos una vez, independientemente de la condición.
+do...while: Úsalo cuando quieras que el bucle se ejecute al menos una vez, independientemente de la condición
