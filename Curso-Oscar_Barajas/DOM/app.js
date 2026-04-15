@@ -52,6 +52,9 @@ function createOpinionElement(opinion) {
   rating.textContent = `⭐ ${opinion.raiting}/5`; // asignamos el texto al span, mostrando el rating con estrellas y la puntuación
 
   // appendChild es un método que se utiliza para agregar un elemento como hijo de otro elemento. En este caso, estamos agregando el nombre y el rating al div meta, y luego el meta y la fecha al header, y finalmente el header y el comentario al article.
+
+  // ejemplo: padre.appendChild(hijo)
+  
   meta.appendChild(nombre);
   meta.appendChild(rating);
 
