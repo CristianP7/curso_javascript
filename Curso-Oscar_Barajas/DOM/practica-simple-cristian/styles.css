@@ -1,0 +1,142 @@
+/* Variables para facilitar cambios de color */
+:root {
+    --primary: #2563eb;
+    --dark: #1e293b;
+    --light: #f1f5f9;
+    --white: #ffffff;
+    --text-muted: #64748b;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: var(--light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    gap: 2rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+/* Estilo base de la tarjeta */
+.card {
+    background: var(--white);
+    border-radius: 1.25rem;
+    padding: 2.5rem 2rem;
+    width: 320px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    text-align: center;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para el plan resaltado */
+.card.featured {
+    border: 2px solid var(--primary);
+    position: relative;
+    transform: scale(1.05);
+}
+
+.card.featured:hover {
+    transform: scale(1.05) translateY(-8px);
+}
+
+.badge {
+    background: var(--primary);
+    color: white;
+    padding: 0.4rem 1.2rem;
+    border-radius: 9999px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.card h2 {
+    color: var(--dark);
+    font-size: 1.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.price {
+    font-size: 3rem;
+    font-weight: 800;
+    color: var(--dark);
+    margin-bottom: 2rem;
+}
+
+.price span {
+    font-size: 1.125rem;
+    color: var(--text-muted);
+    font-weight: 400;
+}
+
+.features {
+    list-style: none;
+    margin-bottom: 2.5rem;
+    text-align: left;
+    flex-grow: 1; /* Empuja el botón hacia abajo si las listas varían de tamaño */
+}
+
+.features li {
+    padding: 0.75rem 0;
+    color: #475569;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+}
+
+.features li::before {
+    content: "✓";
+    color: var(--primary);
+    margin-right: 0.75rem;
+    font-weight: 900;
+}
+
+/* Botón de acción */
+.btn {
+    display: block;
+    background: var(--primary);
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.75rem;
+    font-weight: 700;
+    transition: background-color 0.2s;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+}
+
+/* Adaptación para móviles */
+@media (max-width: 768px) {
+    .card.featured {
+        transform: scale(1);
+    }
+    .card.featured:hover {
+        transform: translateY(-8px);
+    }
+}
