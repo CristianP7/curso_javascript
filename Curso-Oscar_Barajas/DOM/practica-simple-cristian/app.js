@@ -2,7 +2,6 @@ const planes = [
     { id: 1, tipo: "básico", precio: 5},
     { id: 2, tipo: "pro", precio: 50},
     { id: 3, tipo: "premiun", precio: 500},
-
 ];
 
 function crearPlanes(plan) {
@@ -19,6 +18,11 @@ function crearPlanes(plan) {
 
     card.appendChild(tipo);
     card.appendChild(price);
+
+    const boton = document.createElement("button")
+    boton.classList.add("btn")
+    boton.textContent = "Seleccionar" 
+    card.appendChild(boton)
 
     return card;
 }
