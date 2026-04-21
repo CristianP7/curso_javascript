@@ -23,11 +23,11 @@ function manipulateClicks(){
     render();
 }
 
+manipulateClicks();
+
 function changeColor(color){
     $box.style.backgroundColor = color;
 }
 
 $box.addEventListener("mouseenter", () => changeColor("black"));
 $box.addEventListener("mouseleave", () => changeColor("#2A7B9B"));
-
-manipulateClicks();
