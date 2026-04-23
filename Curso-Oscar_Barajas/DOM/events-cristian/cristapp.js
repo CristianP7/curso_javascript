@@ -30,4 +30,5 @@ function changeColor(color){
 }
 
 $box.addEventListener("mouseenter", () => changeColor("black"));
+
 $box.addEventListener("mouseleave", () => changeColor("#2A7B9B"));
