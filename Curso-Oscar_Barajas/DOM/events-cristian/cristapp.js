@@ -5,11 +5,11 @@ const $box = document.getElementById("box");
 
 let clicks = 0;
 
-function manipulateClicks(){
+function render(){
+    $counter.textContent = clicks;
+}
 
-    function render(){
-        $counter.textContent = clicks;
-    }
+function manipulateClicks(){
 
     $click.addEventListener("click", () =>{
         clicks++;
@@ -33,11 +33,18 @@ function changeColor(color){
 $box.addEventListener("mouseenter", () => changeColor("black"));
 $box.addEventListener("mouseleave", () => changeColor("#2A7B9B"));
 
-function setupKeybordLike(){
+function setupKeyboardLike(){
     document.addEventListener('keydown', (event) => {
-        if (event.key?.toLocaleLowerCase() != 'c') return;
-        manipulateClicks();
+        if (event.key?.toLowerCase() != 'c') return;
+        clicks++;
+        render();
+    })
+
+    document.addEventListener('keydown', (event) => {
+        if (event.key?.toLowerCase() != 'r') return;
+        clicks = 0;
+        render(); 
     })
 }
 
-setupKeybordLike();
+setupKeyboardLike();
