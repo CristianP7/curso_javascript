@@ -3,8 +3,9 @@ const $click = document.getElementById('click');
 const $reset = document.getElementById('reset');
 const $box = document.getElementById("box");
 
+let clicks = 0;
+
 function manipulateClicks(){
-    let clicks = 0;
 
     function render(){
         $counter.textContent = clicks;
@@ -31,3 +32,12 @@ function changeColor(color){
 
 $box.addEventListener("mouseenter", () => changeColor("black"));
 $box.addEventListener("mouseleave", () => changeColor("#2A7B9B"));
+
+function setupKeybordLike(){
+    document.addEventListener('keydown', (event) => {
+        if (event.key?.toLocaleLowerCase() != 'c') return;
+        manipulateClicks();
+    })
+}
+
+setupKeybordLike();
