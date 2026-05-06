@@ -38,3 +38,4 @@ if (contactForm) {
     contactForm.addEventListener('submit', handleContactSubmit);
 }
 
+
