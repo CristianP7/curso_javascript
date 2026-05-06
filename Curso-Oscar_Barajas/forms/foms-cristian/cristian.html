@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Práctica de validación de formularios</title>
+  </head>
+  <body>
+    <main class="contacto">
+      <h2>Contacto</h2>
+    </main>
+
+    <form id="contact-form" class="card">
+        <span>Nombre</span>
+        <input type="text" name="nombre" autocomplete="name" required>
+    
+        <span>Mensaje</span>
+        <textarea name="mensaje" required></textarea>
+
+        <button class="btn" type="submit">Enviar</button>
+
+        <div class="card hidden" id="mensaje-guardado"></div>
+    </form>
+
+    <script src="cristian.js"></script>
+  </body>
+</html>
