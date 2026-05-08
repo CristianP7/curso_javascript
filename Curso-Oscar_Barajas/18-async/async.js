@@ -43,3 +43,24 @@ obtenerUsuario((usuario) => {
     });
   });
 });
+
+// Promise representa un valor que puede estar disponible ahora, en el futuro o nunca. Tendrá estados como pendiente (pending), cumplida (fulfilled) o rechazada (rejected). Las promesas permiten manejar operaciones asincrónicas de manera más legible y estructurada, evitando el callback hell.
+
+const promesa = new Promise((resolve, reject) => {
+    const exito = true; // Simulamos una operación exitosa
+
+    setTimeout(() => {
+        if (exito) {
+            resolve('Operación exitosa');
+        } else {
+            reject(new Error ('Algo salió mal'));
+        }
+    }, 1000);
+}); 
+
+promesa.then((mensaje) => {
+    console.log(mensaje);
+}).catch((error) => {
+    console.error(error);
+})
+
